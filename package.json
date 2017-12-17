@@ -5,15 +5,10 @@
   "main": "webpack.config.js",
   "dependencies": {
     "axios": "^0.17.1",
-    "co": "^4.6.0",
     "css-loader": "^0.28.7",
     "element-ui": "^1.4.10",
-    "fast-deep-equal": "^1.0.0",
-    "fast-json-stable-stringify": "^2.0.0",
     "iview": "^2.7.3",
     "jquery": "^3.2.1",
-    "json-schema-traverse": "^0.3.1",
-    "loader-utils": "^1.1.0",
     "schema-utils": "^0.3.0",
     "style-loader": "^0.19.0",
     "v-distpicker": "^1.0.13",
@@ -39,7 +34,8 @@
     "webpack-dev-server": "^2.6.1"
   },
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot --open --host 127.0.0.1 --port 7076"
+    "dev": "webpack-dev-server --inline --hot --open --host 127.0.0.1 --port 7076",
+    "dist": "webpack -p --progress"
   },
   "author": "hiuchi lam",
   "license": "ISC"
